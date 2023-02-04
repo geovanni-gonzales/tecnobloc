@@ -1,0 +1,25 @@
+/* TEAM */
+            Project Manager: Geovanni Gonzales Mendoza
+            Email: gonsalo_gm [at] hotmail.com 
+            Twitter: @geovanni_hgm
+            From: Lima, Peru
+            
+/* SITE */
+            Site URL: http://www.tecnoblochain.com/
+            Last update: 2020/01
+            Languaje: Spain
+            Doctype: HTML5
+            Components: Responsive design, Google Fonts
+            SOFTWARE TOOLS: Brackets, Visual Studio Code, Prepros, XAMPP, Git, GitHub, PHPMailer
+
+/* THANKS */
+            Vincent Garreau: https://github.com/VincentGarreau/particles.js
+            Manos: https://github.com/malihu/malihu-custom-scrollbar-plugin 
+            PHPMailer: https://github.com/PHPMailer/PHPMailer     
+            July Brenda Gonzales Callapaza: https://unsplash.com/@jbrengc
+            TheDigitalArtist : https://pixabay.com/users/thedigitalartist-202249
+            Tumisu: https://pixabay.com/users/tumisu-148124
+            SisterNechama: https://pixabay.com/users/sisternechama-8455601
+            Jack Moreh: https://freerangestock.com/photographer/Jack-Moreh/2728
+
+

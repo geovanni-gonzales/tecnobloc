@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?brvsze');
+  src:  url('fonts/icomoon.eot?brvsze#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?brvsze') format('truetype'),
+    url('fonts/icomoon.woff?brvsze') format('woff'),
+    url('fonts/icomoon.svg?brvsze#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-copy:before {
+  content: "\e900";
+}
+.icon-file_copy:before {
+  content: "\e901";
+}
+.icon-security:before {
+  content: "\e902";
+}
+.icon-youtube:before {
+  content: "\e903";
+}
+.icon-reddit-alien:before {
+  content: "\e904";
+}
+.icon-email:before {
+  content: "\e905";
+}
+.icon-home:before {
+  content: "\e906";
+}
+.icon-facebook:before {
+  content: "\e907";
+}
+.icon-github:before {
+  content: "\e908";
+}
+.icon-twitter:before {
+  content: "\e909";
+}
+.icon-news:before {
+  content: "\e90a";
+}
+.icon-menu:before {
+  content: "\e90b";
+}
+.icon-monero:before {
+  content: "\e90c";
+  color: #f60;
+}
+.icon-xrp:before {
+  content: "\e90d";
+  color: #25a768;
+}
+.icon-ethereum:before {
+  content: "\e90e";
+}
+.icon-bitcoin:before {
+  content: "\e90f";
+  color: #f7931a;
+}
