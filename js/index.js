@@ -143,11 +143,11 @@
         }
 
         if (t_span === "icon-bitcoin") {
-            asignar("APORTE BITCOIN", "images/gc_img/ns_qr_bitcoin_segwit.png", "32WKW5NChEnUjABgNeoMpa5ob2DZHvmMBJ");
+            asignar("APORTE BITCOIN", "images/gc_img/qr_bitcoin.png", "1PZh2W88B1wSAYyB5ZwyY5zexKnjM2DC8S"); //Binance (Red Bitcoin)
         } else if (t_span === "icon-ethereum") {
-            asignar("APORTE ETHERIUM", "images/gc_img/ns_qr_ethereum.png", "0x9Ec438AE514bD019aDbb279512B982F55Bf40536");
-        } else if (t_span === "icon-xrp") {
-            asignar("APORTE XRP", "images/gc_img/ns_qr_ripple.png", "rGiS9AUfjgj5FBi9Z2PDZNwLbkarLihyGB");
+            asignar("APORTE ETHERIUM", "images/gc_img/qr_ethereum.png", "0x27c208b0eee414e1ff96f0c78e2c35414d8323a5"); //Binance (Red ETH ERC20)
+        } else if (t_span === "icon-monero") {
+            asignar("APORTE MONERO", "images/gc_img/qr_monero.png", "87aev3sJdoYS8n9epRHnRt821uoErGsdqEWvoPCMK8uf1nyAiTtcHsoaQtqU9nyr8F7F3haMRQzaKg796QsMKnmaRvgr54k"); //Binance (Red XMR Monero)
         }
     }
     function closeModal(e) {
