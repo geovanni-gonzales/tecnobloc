@@ -47,12 +47,15 @@
         return true;
     }
     function error(tag){
+        var ups = document.querySelector("#form h3#ups");
         tag.className = "errorjs";
         tag.focus();
         tag.value = "";
+        ups.className = "ups";
+        ups.innerHTML = "UPS!, hubo un error, por favor complete los campos."
     }
     function cleanError(e){
-        e.target.className = "";
+        e.target.className = "correctjs";
     }
     function validate(e){
         validateName(e);
