@@ -189,6 +189,20 @@
             h4.innerHTML = "<span class='icon-copy'></span>COPY";
         },2000);    
     }
+    //prueba inicio .......................cierra menu y image autor de movil ...........................................
+    function closeScroll() {
+        var ul;
+        ul = document.querySelector(".nav_movil li > span + ul");
+        div_im = document.querySelector(".nav_movil li > div");
+
+        if (ul.className === "toggle_menu") {
+            ul.removeAttribute("class");
+        } else if (div_im.className === "toggle_image") {
+            div_im.removeAttribute("class");
+            modal.setAttribute("class", "modal");
+        }
+    }
+    // fin de prueba.......................................................................................................
     function execute() {
         hr = document.getElementsByTagName("header")[0];
         h2 = document.getElementsByTagName("h2");
@@ -197,6 +211,7 @@
         window.addEventListener("resize", resiz);
         window.addEventListener("scroll", posit);
         window.addEventListener("scroll", top);//animar(4 de 5)
+        window.addEventListener("scroll", closeScroll);// prueba................................................................
 
         resize();
         animar(h2, "h2");
