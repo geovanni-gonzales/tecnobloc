@@ -1,10 +1,9 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?brvsze');
-  src:  url('fonts/icomoon.eot?brvsze#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?brvsze') format('truetype'),
-    url('fonts/icomoon.woff?brvsze') format('woff'),
-    url('fonts/icomoon.svg?brvsze#icomoon') format('svg');
+  src:
+    url('fonts/icomoon.ttf?utciis') format('truetype'),
+    url('fonts/icomoon.woff?utciis') format('woff'),
+    url('fonts/icomoon.svg?utciis#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -13,7 +12,7 @@
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: none;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -25,54 +24,65 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-copy:before {
+.icon-address:before {
   content: "\e900";
 }
-.icon-file_copy:before {
+.icon-list:before {
   content: "\e901";
 }
-.icon-security:before {
+.icon-notebook:before {
   content: "\e902";
 }
-.icon-youtube:before {
+.icon-news:before {
   content: "\e903";
 }
-.icon-reddit-alien:before {
+.icon-archive:before {
   content: "\e904";
 }
-.icon-email:before {
+.icon-box:before {
   content: "\e905";
 }
-.icon-home:before {
+.icon-security:before {
   content: "\e906";
 }
-.icon-facebook:before {
+.icon-copy:before {
   content: "\e907";
 }
-.icon-github:before {
+.icon-bitcoin:before {
   content: "\e908";
+  color: #f7931a;
 }
-.icon-twitter:before {
+.icon-ethereum:before {
   content: "\e909";
 }
-.icon-news:before {
+.icon-monero:before {
   content: "\e90a";
+  color: #f60;
 }
 .icon-menu:before {
   content: "\e90b";
 }
-.icon-monero:before {
+.icon-home:before {
   content: "\e90c";
-  color: #f60;
 }
-.icon-xrp:before {
+.icon-email:before {
   content: "\e90d";
-  color: #25a768;
 }
-.icon-ethereum:before {
+.icon-contact:before {
   content: "\e90e";
 }
-.icon-bitcoin:before {
+.icon-twitter:before {
   content: "\e90f";
-  color: #f7931a;
+}
+.icon-github:before {
+  content: "\e910";
+}
+.icon-facebook:before {
+  content: "\e911";
+}
+.icon-reddit:before {
+  content: "\e912";
+}
+.icon-youtube:before {
+  content: "\e913";
 }
