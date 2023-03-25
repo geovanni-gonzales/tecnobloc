@@ -240,6 +240,7 @@ $tertiaryWhite: white;
                 }
                 & > li:nth-child(2){
                     flex-grow: 2;
+                    font-size: 1.3rem;
                 }
                 & > li, & > li > ul > li{//para que no afecte a los li de los iconos de monedas
                     text-align: center;
@@ -281,9 +282,9 @@ $tertiaryWhite: white;
                     transition: color 1s;
                     line-height: normal;
                     font-size: .85rem;
-                    @media screen and(max-width: 600px){
+                    @media screen and (max-width: 600px){
                         font-size: .75rem;
-                    }@media screen and(max-width: 350px){
+                    }@media screen and (max-width: 350px){
                         font-size: .65rem;
                     }
                     h3{
@@ -327,7 +328,7 @@ $tertiaryWhite: white;
                 & > li > span, & > li > img{
                     display: none;
                 }
-                @media screen and(max-width: 1000px){
+                @media screen and (max-width: 1000px){
                     & > li > ul > li{
                         border-bottom: 1px solid white;
                         &:first-child{
@@ -668,7 +669,7 @@ $tertiaryWhite: white;
                     }
                     */
                     &#mainbox_author{
-                        @media screen and(max-width: 1000px){
+                        @media screen and (max-width: 1000px){
                             display: none;
                         }
                     }
@@ -723,7 +724,7 @@ $tertiaryWhite: white;
                 font-size: 1.1rem;
                 color: white;
                 
-                @media screen and(max-width: 550px){
+                @media screen and (max-width: 550px){
                     margin: 0 auto 20px;
                     &:last-child:not(#w_margin){
                         margin: 0 auto 0;
@@ -740,7 +741,7 @@ $tertiaryWhite: white;
                 }
             }
             /*--animacion JS-----------------*/
-            @media screen and(max-width: 1000px){
+            @media screen and (max-width: 1000px){
                 width: 90%;
                 & > h2{
                     width: 77%;
@@ -751,7 +752,7 @@ $tertiaryWhite: white;
                     font-size: 1rem;
                 }
             }
-            @media screen and(max-width: 650px){
+            @media screen and (max-width: 650px){
                 width: 98%;
                 &.blockchain{
                     margin-top: 0px;
